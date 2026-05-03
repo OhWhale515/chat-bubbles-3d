@@ -1,0 +1,79 @@
+# Interactive Chat Bubbles - LLM Context Map
+
+> 3D physics-based bubbles that pop on screen when viewers comment.
+
+## Project Overview
+
+**Tech Stack**: Next.js 15, React 19, Three.js, React Three Fiber, drei, Twitch IRC WebSocket
+**Status**: v0.1.0 implemented
+**Purpose**: 3D physics-based bubbles that pop on screen when viewers comment.
+**Tier**: 3 (Viral)
+**Group**: A (Public source plus public demo)
+**Day**: 1 of 25
+**Target Audience**: TikTokers and Twitch streamers
+**Pricing Range**: $15 to $35
+
+---
+
+## Core Documentation
+
+### README.md
+Product overview, quick start, OBS browser source instructions, settings, and roadmap.
+
+### decisions.md
+Architecture decision records for browser-only runtime, Twitch IRC, and custom physics.
+
+### memory.md
+Implementation history, current state, and what changed across iterations.
+
+### tasks.md
+Active sprint tracker, completed items, and next priorities.
+
+(Skip files this tier does not use. See `_templates/README.md` in the meta-repo for the per-tier matrix.)
+
+---
+
+## Key Files
+
+### src/app/page.tsx
+Main preview route for the stream overlay with controls and status chrome.
+
+### src/app/overlay/page.tsx
+OBS browser source route with transparent background and no UI chrome.
+
+### src/app/settings/page.tsx
+Settings route for platform, channel, bubble count, lifetime, scale, and labels.
+
+### src/components/
+React UI and React Three Fiber scene components.
+
+### src/lib/
+Settings persistence, synthetic test feed, Twitch IRC WebSocket, and shared types.
+
+---
+
+## Common Tasks
+
+**Start dev server**: `npm run dev`
+**Build**: `npm run build`
+**Typecheck**: `npm run typecheck`
+**Deploy**: `vercel --prod --yes`
+
+---
+
+## External Resources
+
+**Repo**:
+**Demo**:
+**Production**:
+**Master Plan Reference**: 25days25 Day 1, Tier 3
+
+---
+
+## Related Projects
+
+(Other 25days25 projects this one depends on or pairs with. Leave empty if standalone.)
+
+---
+
+**Last Updated**: 2026-05-02

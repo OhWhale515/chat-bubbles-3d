@@ -1,0 +1,34 @@
+{
+  "name": "chat-bubbles-3d",
+  "version": "0.1.0",
+  "private": false,
+  "description": "3D physics-based bubbles that pop on screen when viewers comment. OBS browser source.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.171.0",
+    "@react-three/fiber": "^9.0.0",
+    "@react-three/drei": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.171.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT",
+  "keywords": ["obs", "twitch", "chat", "three.js", "browser-source", "stream-overlay"]
+}
