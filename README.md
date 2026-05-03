@@ -1,8 +1,13 @@
-# Chat Bubbles 3D
+# 🫧 Chat Bubbles 3D (BubbleChat)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOhWhale515%2Fchat-bubbles-3d)
+[![Get the Source](https://img.shields.io/badge/Get%20the%20Source-Gumroad-orange)](https://gumroad.com/l/25days-full-bundle)
 
 > 3D physics-based bubbles that pop on screen when viewers comment. Drop-in OBS browser source.
 
-Day 1 of the 25days25 sprint. Tier 3 (Viral). Group A (open source).
+**Day 1 of the [25 Days of Code](https://github.com/OhWhale515/25days25-meta) sprint.** 
+A viral-ready OBS overlay that brings your live stream chat to life with realistic 3D physics.
+
 
 For TikTokers, Twitch streamers, and creators who want a stream overlay that feels alive without paying recurring SaaS fees.
 
